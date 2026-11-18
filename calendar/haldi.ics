@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ashita and Tathagat//Wedding Celebrations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ashita-tathagat-haldi-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261205T103000Z
+SUMMARY:Ashita & Tathagat — Haldi
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:A fun\, flowery and colourful afternoon. Dress in your bright c
+ olours!\nAll times IST. End time not specified.
+END:VEVENT
+END:VCALENDAR

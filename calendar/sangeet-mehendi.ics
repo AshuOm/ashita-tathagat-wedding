@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ashita and Tathagat//Wedding Celebrations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ashita-tathagat-sangeet-mehendi-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261205T133000Z
+SUMMARY:Ashita & Tathagat — Sangeet cum Mehendi
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:Get your henna done and prepare your dance moves to rock the fl
+ oor!\nAll times IST. End time not specified.
+END:VEVENT
+END:VCALENDAR

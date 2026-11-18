@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ashita and Tathagat//Wedding Celebrations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ashita-tathagat-haldi-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261205T103000Z
+SUMMARY:Ashita & Tathagat — Haldi
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:A fun\, flowery and colourful afternoon. Dress in your bright c
+ olours!\nAll times IST. End time not specified.
+END:VEVENT
+BEGIN:VEVENT
+UID:ashita-tathagat-mangalakritya-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261205T123000Z
+SUMMARY:Ashita & Tathagat — MangalaKrutya
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:Join the families for this auspicious wedding tradition.\nAll t
+ imes IST. End time not specified.
+END:VEVENT
+BEGIN:VEVENT
+UID:ashita-tathagat-sangeet-mehendi-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261205T133000Z
+SUMMARY:Ashita & Tathagat — Sangeet cum Mehendi
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:Get your henna done and prepare your dance moves to rock the fl
+ oor!\nAll times IST. End time not specified.
+END:VEVENT
+BEGIN:VEVENT
+UID:ashita-tathagat-baraat-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261206T043000Z
+SUMMARY:Ashita & Tathagat — Baraat Starts
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:After breakfast\, get ready to rock the baraat with the DJ — 
+ don’t forget your shades!\nAll times IST. End time not specified.
+END:VEVENT
+BEGIN:VEVENT
+UID:ashita-tathagat-pritibhojana-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261206T073000Z
+SUMMARY:Ashita & Tathagat — Pritibhojana
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:Share a meal and the joy of celebrating together.\nAll times IS
+ T. End time not specified.
+END:VEVENT
+BEGIN:VEVENT
+UID:ashita-tathagat-shaadi-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261206T083000Z
+SUMMARY:Ashita & Tathagat — Shaadi · Bibaha Panigrahana
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:Please enjoy the wedding rituals with us.\nAll times IST. End t
+ ime not specified.
+END:VEVENT
+BEGIN:VEVENT
+UID:ashita-tathagat-bidaai-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261206T133000Z
+SUMMARY:Ashita & Tathagat — Bidaai
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:A heartfelt farewell as a beautiful new chapter begins.\nAll ti
+ mes IST. End time not specified.
+END:VEVENT
+BEGIN:VEVENT
+UID:ashita-tathagat-reception-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261212T140000Z
+SUMMARY:Ashita & Tathagat — Wedding Reception
+LOCATION:Community Hall\, Masoodpur\, Vasant Kunj\, New Delhi 110070\, Oppo
+ site State Bank of India Central Market\, India
+DESCRIPTION:The celebrations continue in New Delhi. Join us for a lovely ev
+ ening together.\nAll times IST. End time not specified.
+END:VEVENT
+END:VCALENDAR

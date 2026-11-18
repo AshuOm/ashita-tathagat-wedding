@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ashita and Tathagat//Wedding Celebrations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ashita-tathagat-bidaai-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261206T133000Z
+SUMMARY:Ashita & Tathagat — Bidaai
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:A heartfelt farewell as a beautiful new chapter begins.\nAll ti
+ mes IST. End time not specified.
+END:VEVENT
+END:VCALENDAR

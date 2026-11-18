@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ashita and Tathagat//Wedding Celebrations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ashita-tathagat-mangalakritya-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261205T123000Z
+SUMMARY:Ashita & Tathagat — MangalaKrutya
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:Join the families for this auspicious wedding tradition.\nAll t
+ imes IST. End time not specified.
+END:VEVENT
+END:VCALENDAR

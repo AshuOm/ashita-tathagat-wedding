@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ashita and Tathagat//Wedding Celebrations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ashita-tathagat-pritibhojana-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261206T073000Z
+SUMMARY:Ashita & Tathagat — Pritibhojana
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:Share a meal and the joy of celebrating together.\nAll times IS
+ T. End time not specified.
+END:VEVENT
+END:VCALENDAR

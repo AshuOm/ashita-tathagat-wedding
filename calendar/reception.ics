@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ashita and Tathagat//Wedding Celebrations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ashita-tathagat-reception-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261212T140000Z
+SUMMARY:Ashita & Tathagat — Wedding Reception
+LOCATION:Community Hall\, Masoodpur\, Vasant Kunj\, New Delhi 110070\, Oppo
+ site State Bank of India Central Market\, India
+DESCRIPTION:The celebrations continue in New Delhi. Join us for a lovely ev
+ ening together.\nAll times IST. End time not specified.
+END:VEVENT
+END:VCALENDAR

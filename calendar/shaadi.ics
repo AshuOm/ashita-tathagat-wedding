@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ashita and Tathagat//Wedding Celebrations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ashita-tathagat-shaadi-202612@wedding
+DTSTAMP:20261118T000000Z
+DTSTART:20261206T083000Z
+SUMMARY:Ashita & Tathagat — Shaadi · Bibaha Panigrahana
+LOCATION:Hotel Bhagaban Villa\, Near Old Bus Stand\, Nayagarh Road\, Khordh
+ a\, Odisha 752055\, India
+DESCRIPTION:Please enjoy the wedding rituals with us.\nAll times IST. End t
+ ime not specified.
+END:VEVENT
+END:VCALENDAR
