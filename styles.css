@@ -29,3 +29,8 @@
 @media print{.site-header,.gate-overlay,.countdown,.rsvp,.memory-overlay{display:none!important}.event{break-inside:avoid;min-height:0}.event-art{height:230px;min-height:0}.reveal{opacity:1;transform:none}}
 /* Keep the personalized monograms on a single horizontal baseline. */
 .brand-mark,.gate-seal{display:flex;align-items:center;justify-content:center;white-space:nowrap}
+
+/* RSVP — four family contacts with matching WhatsApp actions */
+.rsvp-contacts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:26px;row-gap:28px}
+.rsvp-contact{min-width:0}.rsvp-contact strong{overflow-wrap:anywhere}
+@media(max-width:520px){.rsvp-contacts{grid-template-columns:1fr;row-gap:20px}}

@@ -57,8 +57,9 @@
     const details = choice==='decline'?'':`\nNumber of guests, including me: ${data.get('guests')||1}\nEvents: ${selected.join(', ')||'Yet to confirm'}`;
     const note = String(data.get('message')||'').trim();
     text.value=`Dear Ashita & Tathagat,\n${intro}\n\nName: ${String(data.get('name')||'').trim()}\nAttendance: ${status}${details}${note?'\n\nMessage: '+note:''}`;
-    document.getElementById('whatsapp-ashita').href='https://wa.me/918825404216?text='+encodeURIComponent(text.value);
-    document.getElementById('whatsapp-tathagat').href='https://wa.me/918920597165?text='+encodeURIComponent(text.value);
+    document.querySelectorAll('[data-rsvp-whatsapp]').forEach(link => {
+      link.href = 'https://wa.me/' + link.dataset.rsvpWhatsapp + '?text=' + encodeURIComponent(text.value);
+    });
     form.hidden = true;result.hidden=false;result.focus();
   });
   document.getElementById('rsvp-edit').addEventListener('click', () => {form.hidden=false;result.hidden=true;document.getElementById('guest-name').focus();});
