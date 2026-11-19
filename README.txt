@@ -3,14 +3,13 @@ ASHITA & TATHAGAT — READY-TO-DEPLOY WEDDING WEBSITE
 This folder is a complete static website. Open index.html in a browser or upload all of the files and folders together to any static host (GitHub Pages, Netlify, Cloudflare Pages, etc.). No build step or account is required.
 
 Wedding: 5–6 December 2026 · Hotel Bhagaban Villa, Khordha, Odisha.
-Reception: 12 December 2026 · Community Hall, Masoodpur, Vasant Kunj, New Delhi.
 Shaadi / Bibaha Panigrahana confirmed: 2:00 PM IST on 6 December 2026.
 
 FEATURES
 - Animated palace gate entrance based on the uploaded plabini reference project
 - Personalized A & T monograms, hero, countdown and envelope invitation
-- Eight event cards, accurate times and individually downloadable calendar invites
-- Wedding/reception directions, contact links, WhatsApp-ready RSVP composer
+- Seven event cards, accurate times and individually downloadable calendar invites
+- Wedding venue directions, contact links, WhatsApp-ready RSVP composer
 - Accessible responsive layout, supplied couple story photo, and Memories placeholder
 - Source files: index.html, styles.css, script.js, assets/, calendar/
 
@@ -32,3 +31,5 @@ LATEST UPDATE
 - All 4 RSVP contacts (Dillip, Jaydeep, Ashita and Tathagat) have click-to-call and WhatsApp links.
 - Guests may send the prefilled RSVP to any of those 4 contacts. Nothing is sent automatically.
 - Current ceremony artwork included: haldi, sangeet, tilak, vivah, sunrise hero in WebP.
+
+AFTER THE VIDEO: Supplied audio loops through the invitation, with a floating mute/play button. Reception in New Delhi removed.

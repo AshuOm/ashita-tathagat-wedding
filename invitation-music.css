@@ -1,0 +1,13 @@
+/* Small, accessible music toggle: appears only after the intro finishes. */
+.invitation-music-toggle[hidden] { display: none !important; }
+.invitation-music-toggle {
+  position: fixed; z-index: 1200; right: max(16px, env(safe-area-inset-right));
+  bottom: max(18px, env(safe-area-inset-bottom));
+  min-height: 44px; padding: 11px 17px; border: 1px solid #cfac72;
+  border-radius: 999px; background: #102b26ee; color: #f9e7c8;
+  font: 600 12px/1.4 Arial, sans-serif; letter-spacing: .035em;
+  box-shadow: 0 8px 25px #0005; cursor: pointer;
+}
+.invitation-music-toggle:hover { background: #1d463b; }
+.invitation-music-toggle:focus-visible { outline: 3px solid #eac88d; outline-offset: 4px; }
+@media (max-width: 600px) { .invitation-music-toggle { right: 12px; bottom: 14px; font-size: 11px; } }
