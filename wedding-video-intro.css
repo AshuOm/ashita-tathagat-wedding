@@ -1,0 +1,37 @@
+/* Wedding film overlay – isolated from all existing wedding styles. */
+body.wedding-film-locked { overflow: hidden !important; }
+.wedding-film[hidden], .wedding-film__play-fallback[hidden] { display: none !important; }
+.wedding-film {
+  position: fixed; inset: 0; z-index: 2000; overflow: auto;
+  display: grid; place-items: center; padding: max(18px, env(safe-area-inset-top)) 16px max(18px, env(safe-area-inset-bottom));
+  background: radial-gradient(ellipse at center, #19332e, #061713 85%);
+  color: #f7e9cc; opacity: 0; transition: opacity .35s ease;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.wedding-film.is-visible { opacity: 1; }
+.wedding-film.is-finishing { opacity: 0; pointer-events: none; }
+.wedding-film__inner { width: min(100%, 1100px); display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.wedding-film__heading { text-align: center; letter-spacing: .17em; line-height: 1.35; }
+.wedding-film__heading span { font-size: clamp(20px, 4vw, 37px); display: block; }
+.wedding-film__heading i { color: #d6ab69; font-weight: 400; }
+.wedding-film__heading small { display: block; margin-top: 7px; font: 500 10px/1.5 Arial, sans-serif; letter-spacing: .28em; color: #e2c68d; }
+.wedding-film__player { position: relative; width: 100%; display: grid; place-items: center; }
+.wedding-film__player video {
+  width: 100%; max-height: min(68dvh, 650px); height: auto; aspect-ratio: 848 / 480; object-fit: contain;
+  border: 1px solid #c8a76a; background: #081716; border-radius: 2px;
+  box-shadow: 0 12px 55px #0009, 0 0 0 7px #ac88502d;
+}
+.wedding-film__progress { width: 100%; height: 3px; background: #e8cc9055; overflow: hidden; }
+.wedding-film__progress span { display: block; width: 0; height: 100%; background: #e6c785; transition: width .25s linear; }
+.wedding-film__actions { display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 20px; }
+.wedding-film__actions button, .wedding-film__play-fallback button {
+  appearance: none; border: 1px solid #bda16b; border-radius: 0; background: #112c27;
+  color: #f0dbb0; padding: 10px 16px; font: 500 12px/1.3 Arial, sans-serif;
+  cursor: pointer; letter-spacing: .06em;
+}
+.wedding-film button:focus-visible { outline: 3px solid #fff1bd; outline-offset: 3px; }
+.wedding-film__actions button:hover, .wedding-film__play-fallback button:hover { background: #285245; }
+.wedding-film__play-fallback { position: absolute; inset: 0; display: grid; place-content: center; gap: 16px; text-align: center; padding: 30px; background: #091d1ce8; }
+.wedding-film__play-fallback p { font: 400 clamp(15px, 2.5vw, 20px) Georgia, serif; }
+@media (max-width: 600px) { .wedding-film__heading span { font-size: 24px; } .wedding-film__inner { gap: 17px; } .wedding-film__actions { gap: 6px; } .wedding-film__actions button { font-size: 11px; padding: 11px; } }
+@media (prefers-reduced-motion: reduce) { .wedding-film, .wedding-film__progress span { transition: none; } }
