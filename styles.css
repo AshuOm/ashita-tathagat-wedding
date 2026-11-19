@@ -34,3 +34,15 @@
 .rsvp-contacts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:26px;row-gap:28px}
 .rsvp-contact{min-width:0}.rsvp-contact strong{overflow-wrap:anywhere}
 @media(max-width:520px){.rsvp-contacts{grid-template-columns:1fr;row-gap:20px}}
+
+/* ROYAL_GATES_TWO_LEAVES_AT_2026
+   The left and right doors are distinct transparent images on a shared
+   1536x1024 scene coordinate system, with the background behind both. */
+.gate-scene .gate-frame { z-index: 0; }
+.gate-scene .gate-left, .gate-scene .gate-right { z-index: 2; }
+.gate-scene .gate-left { transform-origin: 23.3% 52%; }
+.gate-scene .gate-right { transform-origin: 76.7% 52%; }
+/* Initials A and T are already engraved on the separate door artworks. */
+.gate-seal { display: none !important; }
+.gate-scene .gate-panel { filter: brightness(.99) saturate(1.03); }
+.gate-tap { text-shadow: 0 3px 12px #001612; }
